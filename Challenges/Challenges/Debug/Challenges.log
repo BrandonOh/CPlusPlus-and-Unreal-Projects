@@ -1,0 +1,5 @@
+﻿  Challenges.cpp
+C:\Users\Brandon\Documents\GitHub\CPlusPlus-and-Unreal-Projects\Challenges\Challenges\Challenges.cpp(16,36): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Brandon\Documents\GitHub\CPlusPlus-and-Unreal-Projects\Challenges\Challenges\Challenges.cpp(44,25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Brandon\Documents\GitHub\CPlusPlus-and-Unreal-Projects\Challenges\Challenges\Challenges.cpp(45,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Challenges.vcxproj -> C:\Users\Brandon\Documents\GitHub\CPlusPlus-and-Unreal-Projects\Challenges\Debug\Challenges.exe
