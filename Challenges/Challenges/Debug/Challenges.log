@@ -1,8 +1,8 @@
 ﻿  Challenges.cpp
-C:\Users\Brandon\Documents\GitHub\CPlusPlus-and-Unreal-Projects\Challenges\Challenges\Challenges.cpp(17,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Brandon\Documents\GitHub\CPlusPlus-and-Unreal-Projects\Challenges\Challenges\Challenges.cpp(25,25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\Brandon\Documents\GitHub\CPlusPlus-and-Unreal-Projects\Challenges\Challenges\Challenges.cpp(26,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Brandon\Documents\GitHub\CPlusPlus-and-Unreal-Projects\Challenges\Challenges\Challenges.cpp(33,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Brandon\Documents\GitHub\CPlusPlus-and-Unreal-Projects\Challenges\Challenges\Challenges.cpp(43,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Brandon\Documents\GitHub\CPlusPlus-and-Unreal-Projects\Challenges\Challenges\Challenges.cpp(44,38): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Brandon\Documents\GitHub\CPlusPlus-and-Unreal-Projects\Challenges\Challenges\Challenges.cpp(30,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Brandon\Documents\GitHub\CPlusPlus-and-Unreal-Projects\Challenges\Challenges\Challenges.cpp(38,25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Brandon\Documents\GitHub\CPlusPlus-and-Unreal-Projects\Challenges\Challenges\Challenges.cpp(39,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Brandon\Documents\GitHub\CPlusPlus-and-Unreal-Projects\Challenges\Challenges\Challenges.cpp(46,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Brandon\Documents\GitHub\CPlusPlus-and-Unreal-Projects\Challenges\Challenges\Challenges.cpp(56,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Brandon\Documents\GitHub\CPlusPlus-and-Unreal-Projects\Challenges\Challenges\Challenges.cpp(57,38): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   Challenges.vcxproj -> C:\Users\Brandon\Documents\GitHub\CPlusPlus-and-Unreal-Projects\Challenges\Debug\Challenges.exe

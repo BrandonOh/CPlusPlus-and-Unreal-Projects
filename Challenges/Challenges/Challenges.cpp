@@ -12,6 +12,19 @@ double gain = 0.0, total = 0.0;
 
 const double depositingFee = 0.3;
 
+class Client 
+{
+    public:
+        char middleInitial = 'a';
+        string fName = "", lName = "", fullName = "";
+        int age = 0;
+        
+        void WhatsPassword() 
+        {
+            cout << "Your Password is " << fName.length() << fName[2] << lName << "\n";
+        }
+};
+
 float RoundHundreth(float total)
 {
     float money = floor(total * 100 + .5) / 100;
@@ -49,23 +62,22 @@ void Wait() {
 
 int main()
 {
-    int age = 0;
     bool running = true;
-    char middleInitial = 'a';
-    string fName = "", lName = "",fullName = "";
     string input = "";
 
+    Client client1;
+
     cout << "Hello, what is your first name, middle initial and last name\n";
-    cin >> fName >> middleInitial >> lName;
-    fullName = fName + middleInitial + lName;
+    cin >> client1.fName >> client1.middleInitial >> client1.lName;
+    client1.fullName = client1.fName + client1.middleInitial + client1.lName;
 
     cout << "How old are you?\n";
-    cin >> age;
-    if (age == 21 || age > 21)
+    cin >> client1.age;
+    if (client1.age == 21 || client1.age > 21)
     {
         cout << "You are old enough to have a bank account.\n";
     }
-    else if (age <= 20)
+    else if (client1.age <= 20)
     {
         cout << "You are not old enough to make a bank account.\n";
     }
@@ -74,12 +86,12 @@ int main()
         cout << "Please provide and age.\n";
     }
 
-    cout << "Your account username is " << fullName << ".\n";
-    lName[0] = 'J';
-    cout << "Your account password is " << fName.length() << fName[2] << lName + ".\n";
+    cout << "Your account username is " << client1.fullName << ".\n";
+    client1.lName[0] = 'J';
+    cout << "Your account password is " << client1.fName.length() << client1.fName[2] << client1.lName + ".\n";
     
     while (running == true) {
-        cout << "What would you like to do?\nDeposit | Withdraw | Wait | Quit\n";
+        cout << "What would you like to do?\nDeposit | Withdraw | Wait | Quit | Password\n";
         cin >> input;
         if (input == "Deposit")
         {
@@ -92,6 +104,10 @@ int main()
         else if (input == "Wait")
         {
             Wait();
+        }
+        else if (input == "Password")
+        {
+            client1.WhatsPassword();
         }
         else if (input == "Quit")
         {
